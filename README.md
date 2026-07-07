@@ -1,7 +1,7 @@
 # 🌙 Luna-2.5B
 
 <p align="center">
-  <em>Arunachalam's Luna-2.5B: A specialized tool for the Arch Linux community. Developed by a 7-year veteran builder based in Tamil Nadu, India.</em>
+  <em>Arunachalam's Luna-2.5B: A specialized tool for the Arch Linux community. Developed by a 7-year veteran builder based in (Tamil Nadu), India.</em>
 </p>
 
 ---
