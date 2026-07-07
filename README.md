@@ -6,22 +6,36 @@
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Installation & Download Options
 
-You can easily install Luna-2.5B natively on Arch Linux using your favorite AUR helper (like `yay`):
-
+### 1. Arch Linux (AUR) - *Recommended for Arch Users*
+You can easily install Luna-2.5B natively on Arch Linux using your favorite AUR helper (like `yay`). This automatically installs `ollama` and configures the `luna-llm` command:
 ```bash
 yay -S luna-llm
 ```
-
-This will automatically install `ollama` as a dependency and set up the `luna-llm` command.
-
 Once installed, simply run:
 ```bash
 luna-llm
 ```
 
-*(Alternatively, you can manually run it via Ollama: `ollama run Arunachalam-arch/luna-2.5b`)*
+### 2. Direct Ollama Pull
+If you already have [Ollama](https://ollama.com) installed on any OS, you can pull and run the model directly from the Ollama registry:
+```bash
+ollama run Arunachalam-arch/luna-2.5b
+```
+
+### 3. Hugging Face (Raw Weights)
+If you prefer to use the model with standard Hugging Face tools, Transformers, or vLLM, you can download the raw weights directly from our Hugging Face repository:
+👉 **[Download from Hugging Face](https://huggingface.co/Arunachallam/Luna-2.5B-LLM)**
+
+### 4. Manual Local Build
+You can clone this repository and build the model locally using the provided `Modelfile`:
+```bash
+git clone https://github.com/Arunachalam-gojosaturo/Luna-2.5B-LLM.git
+cd Luna-2.5B-LLM
+ollama create luna-2.5b -f Modelfile
+ollama run luna-2.5b
+```
 
 ---
 
