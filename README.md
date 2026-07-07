@@ -1,51 +1,139 @@
-# 🌑 Luna-2.5B (Antigravity Edition)
+# 🌙 Luna-2.5B
 
-**Luna-2.5B** is an advanced, ultra-lightweight Small Language Model (SLM) engineered to make complex knowledge completely weightless. Built upon the robust **Qwen2.5-1.5B** architecture, this model has been meticulously optimized for maximum efficiency, specifically targeting **Arch Linux** bare-metal performance.
+Luna-2.5B is a customized and optimized derivative of the open-source Qwen2.5-1.5B language model, engineered for lightweight local deployment and an Arch Linux-first developer experience.
 
----
+Rather than changing the underlying model architecture, Luna-2.5B focuses on:
 
-## 🚀 The Antigravity Philosophy
+- ⚡ Hardware optimization for lightweight systems
+- 🐧 Arch Linux developer workflow
+- 💻 Programming and terminal assistance
+- 🚀 AI-powered productivity
+- 🌙 Antigravity reasoning framework
+- 📦 Native Ollama integration
 
-At the core of Luna-2.5B lies the "Antigravity" framework. We believe that learning and problem-solving shouldn't feel like a heavy burden. Luna is designed to lift the cognitive drag off users by breaking down highly technical concepts, code bottlenecks, and hard science into clear, floating, and effortlessly digestible ideas.
-
-### Key Persona Traits:
-- **Zero Friction Problem Solving:** Treats user difficulties and bugs as "gravitational drag" and provides aerodynamic, structured solutions.
-- **The Anchor (Hard Science):** Grounded accurately in true physics (e.g., general relativity, Alcubierre metrics) when discussing real-world limitations.
-- **The Lift (Creative Speculation):** Highly creative when tasked with worldbuilding, sci-fi, or speculative graviton manipulation.
-- **Featherweight Formatting:** Outputs are structured with clean markdown headers, bullet points, and short sentences to remain visually "light".
-
----
-
-## ⚡ Hardware Optimizations (Arch Linux)
-
-This model has been specifically tuned for minimalist, rolling-release environments like Arch Linux running on constrained hardware (e.g., 8GB RAM, i3 CPUs):
-- **Memory Mapping:** Maximized `num_ctx` (2048) efficiency for Linux kernels.
-- **Bare-Metal Threading:** Hard-mapped `num_thread` (4) to align directly with physical CPU cores, preventing context-switching overhead.
-- **Streamlined Buffers:** Constrained `num_predict` (512) to keep generation speeds blisteringly fast.
-- **Tight Memory Loops:** Tuned `repeat_penalty` (1.1) to prevent endless looping under high memory pressure.
+Luna-2.5B is designed to feel lightweight, structured, and developer-friendly while remaining fully compatible with the original Qwen architecture.
 
 ---
 
-## 📦 Deployment & Usage
+## 🐧 Arch Linux Customization
 
-You can run Luna-2.5B locally using [Ollama](https://ollama.com/).
+Luna-2.5B has been customized specifically for Linux users and developers.
 
-### 1. Build the Model Locally
-Ensure you have the `Modelfile` in your directory, then run:
+### Optimizations
+
+- Arch Linux–first responses
+- Native pacman and AUR knowledge
+- Hyprland workflow awareness
+- Bash & Zsh optimized
+- System administration assistance
+- Python development
+- FastAPI
+- Docker
+- Git
+- Node.js
+- Developer tooling
+
+The model prioritizes Linux-native solutions whenever appropriate while remaining cross-platform.
+
+---
+
+## 🌙 Antigravity Philosophy
+
+Antigravity is not about fictional propulsion.
+
+It represents reducing complexity.
+
+Every response should:
+
+• Reduce cognitive load
+
+• Remove unnecessary complexity
+
+• Keep explanations structured
+
+• Make difficult concepts feel effortless
+
+Knowledge should feel weightless.
+
+---
+
+## ⚙️ Technical Base
+
+Base Model
+
+Qwen2.5-1.5B-Instruct
+
+Original Authors
+
+Qwen Team
+
+Derivative
+
+Luna-2.5B
+
+Customization & Optimization
+
+Arunachalam
+
+Architecture
+
+Transformer Decoder LLM
+
+Deployment
+
+Ollama
+
+License
+
+Apache 2.0 (See original model license)
+
+---
+
+## 🚀 Install
+
 ```bash
-ollama pull qwen2.5:1.5b
-ollama create luna-2.5b -f ./Modelfile
-```
+ollama create luna-2.5b -f Modelfile
 
-### 2. Run the Model
-Once built, you can chat with Luna-2.5B by running:
-```bash
 ollama run luna-2.5b
 ```
 
 ---
 
-## 📜 License & Attribution
+## 🐧 Recommended Environment
 
-Luna-2.5B is licensed under the **Apache License, Version 2.0**. 
-*This model is an independent, customized optimization and persona derivative built upon the Qwen2.5-1.5B-Instruct base architecture created by the Alibaba Qwen Team. This derivative modification and the "Antigravity" system alignment matrix were engineered by Arunachalam.*
+Operating System
+
+Arch Linux
+
+Shell
+
+Zsh
+
+Terminal
+
+Kitty
+
+Desktop
+
+Hyprland
+
+Hardware
+
+Intel Core i3+
+8 GB RAM minimum
+
+---
+
+## ❤️ Credits
+
+Original Model
+
+Qwen Team
+
+Luna-2.5B Customization
+
+Arunachalam
+
+Luna AI Ecosystem
+
+Created and maintained by Arunachalam.
