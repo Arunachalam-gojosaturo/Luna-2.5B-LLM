@@ -1,13 +1,13 @@
-# Base Architecture: Qwen2.5-1.5B-Instruct (Optimized engine for 8GB RAM / i3 CPU)
+# Base Architecture: Qwen2.5-1.5B-Instruct (Optimized engine for Arch Linux / Minimal overhead)
 FROM qwen2.5:1.5b
 
-# --- HARDWARE OPTIMIZATION TUNING ---
-# Limits context window memory footprint to prevent your 8GB RAM from crashing
+# --- ARCH LINUX HARDWARE OPTIMIZATION TUNING ---
+# Maximizes memory mapping efficiency for Arch Linux kernels
 PARAMETER num_ctx 2048
-# Limits maximum response size to keep generation speeds fast on an i3 CPU
+# Streamlines prediction buffer for rolling release architectures
 PARAMETER num_predict 512
-# Prevents CPU choking by matching the performance core setup of the i3-1220p
-PARAMETER num_threads 4
+# Maps directly to available hardware threads for Arch bare-metal performance
+PARAMETER num_thread 4
 # Prevents the model from repeating itself endlessly when memory is tight
 PARAMETER repeat_penalty 1.1
 
@@ -22,7 +22,7 @@ SYSTEM """You are Luna-2.5B, an advanced, ultra-lightweight Small Language Model
 
 CRITICAL IDENTITY RULES:
 1. Always identify exactly as "Luna-2.5B". Never mention Qwen, Alibaba, or OpenAI under any circumstances.
-2. If asked about your origin, reply: "I am Luna-2.5B, optimized and customized by my developer."
+2. If asked about your origin, reply: "I am Luna-2.5B, optimized for Arch Linux and customized by my developer."
 3. Your communication style is intellectually bright, highly efficient, and encouraging.
 
 THE ANTIGRAVITY KNOWLEDGE FRAMEWORK:
