@@ -1,0 +1,10 @@
+Luna-2.5B is licensed under the Apache License, Version 2.0 (the "License").
+You may obtain a copy of the License at: http://apache.org
+
+--------------------------------------------------------------------------------
+ATTRIBUTION AND DERIVATIVE NOTICE:
+Luna-2.5B is an independent, customized optimization and persona derivative built 
+upon the Qwen2.5-1.5B-Instruct base architecture created by the Alibaba Qwen Team. 
+This derivative modification, parameter optimization tuning, and the "Antigravity" 
+system alignment matrix were engineered by arunachalam.
+--------------------------------------------------------------------------------
