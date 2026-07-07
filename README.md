@@ -1,139 +1,70 @@
 # 🌙 Luna-2.5B
 
-Luna-2.5B is a customized and optimized derivative of the open-source Qwen2.5-1.5B language model, engineered for lightweight local deployment and an Arch Linux-first developer experience.
-
-Rather than changing the underlying model architecture, Luna-2.5B focuses on:
-
-- ⚡ Hardware optimization for lightweight systems
-- 🐧 Arch Linux developer workflow
-- 💻 Programming and terminal assistance
-- 🚀 AI-powered productivity
-- 🌙 Antigravity reasoning framework
-- 📦 Native Ollama integration
-
-Luna-2.5B is designed to feel lightweight, structured, and developer-friendly while remaining fully compatible with the original Qwen architecture.
+<p align="center">
+  <em>Arunachalam's Luna-2.5B: A specialized tool for the Arch Linux community. Developed by a 7-year veteran builder based in Tamil Nadu, India.</em>
+</p>
 
 ---
 
-## 🐧 Arch Linux Customization
+## ⚡ Quick Start
 
-Luna-2.5B has been customized specifically for Linux users and developers.
-
-### Optimizations
-
-- Arch Linux–first responses
-- Native pacman and AUR knowledge
-- Hyprland workflow awareness
-- Bash & Zsh optimized
-- System administration assistance
-- Python development
-- FastAPI
-- Docker
-- Git
-- Node.js
-- Developer tooling
-
-The model prioritizes Linux-native solutions whenever appropriate while remaining cross-platform.
-
----
-
-## 🌙 Antigravity Philosophy
-
-Antigravity is not about fictional propulsion.
-
-It represents reducing complexity.
-
-Every response should:
-
-• Reduce cognitive load
-
-• Remove unnecessary complexity
-
-• Keep explanations structured
-
-• Make difficult concepts feel effortless
-
-Knowledge should feel weightless.
-
----
-
-## ⚙️ Technical Base
-
-Base Model
-
-Qwen2.5-1.5B-Instruct
-
-Original Authors
-
-Qwen Team
-
-Derivative
-
-Luna-2.5B
-
-Customization & Optimization
-
-Arunachalam
-
-Architecture
-
-Transformer Decoder LLM
-
-Deployment
-
-Ollama
-
-License
-
-Apache 2.0 (See original model license)
-
----
-
-## 🚀 Install
+You can easily install Luna-2.5B natively on Arch Linux using your favorite AUR helper (like `yay`):
 
 ```bash
-ollama create luna-2.5b -f Modelfile
-
-ollama run luna-2.5b
+yay -S luna-llm
 ```
 
----
+This will automatically install `ollama` as a dependency and set up the `luna-llm` command.
 
-## 🐧 Recommended Environment
+Once installed, simply run:
+```bash
+luna-llm
+```
 
-Operating System
-
-Arch Linux
-
-Shell
-
-Zsh
-
-Terminal
-
-Kitty
-
-Desktop
-
-Hyprland
-
-Hardware
-
-Intel Core i3+
-8 GB RAM minimum
+*(Alternatively, you can manually run it via Ollama: `ollama run Arunachalam-arch/luna-2.5b`)*
 
 ---
 
-## ❤️ Credits
+## ✨ Features
 
-Original Model
+- **⚡ Lightweight & Fast:** Optimized parameters tailored for minimal hardware overhead without sacrificing intelligence.
+- **🐧 Arch Linux Native:** Expert knowledge of pacman, AUR, Hyprland workflows, Bash, Zsh, and Kitty out of the box.
+- **💻 Developer-Focused:** Built-in proficiency for Python, FastAPI, Docker, Git, Node.js, and general terminal mastery.
+- **📦 Seamless Ollama Integration:** Pre-configured parameters (like hardware threading and context sizing) for instant deployment and efficiency.
 
-Qwen Team
+---
 
-Luna-2.5B Customization
+## 💡 Example Prompts
 
-Arunachalam
+Here are a few things you can ask Luna-2.5B:
 
-Luna AI Ecosystem
+- *"How do I write a minimal FastAPI server using Docker?"*
+- *"What's the best way to optimize my Hyprland config for an Intel i3?"*
+- *"Write a Bash script to automate backing up my dotfiles using git."*
+- *"Explain the difference between pacman and yay in Arch Linux."*
 
-Created and maintained by Arunachalam.
+---
+
+## ⚙️ Technical Details & Requirements
+
+| Property | Details |
+|----------|---------|
+| **Base Architecture** | Qwen2.5-1.5B-Instruct |
+| **Model Size** | ~1.5 Billion Parameters |
+| **Context Window** | 2048 (Optimized for rolling release & memory efficiency) |
+| **Customization** | Arunachalam |
+| **License** | Apache 2.0 |
+
+### 🖥️ Recommended Environment
+
+- **OS:** Arch Linux (or any lightweight Linux distro)
+- **Hardware:** Intel Core i3 (or equivalent) + 8GB RAM minimum
+- **Terminal Setup:** Zsh, Kitty, Hyprland
+
+---
+
+## ❤️ Credits & Ecosystem
+
+- **Original Qwen Architecture:** [Qwen Team](https://huggingface.co/Qwen)
+- **Customization & Tuning:** Arunachalam, a 7-year veteran builder based in Tamil Nadu, India.
+- **Hosting:** Available on [Ollama](https://ollama.com/Arunachalam-arch/luna-2.5b) & [Hugging Face](https://huggingface.co/Arunachallam/Luna-2.5B-LLM)
